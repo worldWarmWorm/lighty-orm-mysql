@@ -1,0 +1,32 @@
+{
+  "name": "world-warm-worm/lighty-orm-mysql",
+  "description": "Simply nice php ORM for mysql",
+  "type": "library",
+  "homepage": "https://github.com/worldWarmWorm/lighty-orm-mysql",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "v.davydkin",
+      "email": "world-warm-worm@ya.ru"
+    }
+  ],
+  "require": {
+    "php": "8.4.11",
+    "ext-mysql": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "12.3.5",
+    "phpstan/phpstan": "2.1.22",
+    "phpstan/phpstan-strict-rules": "2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lighty\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lighty\\Tests\\": "tests/"
+    }
+  }
+}
